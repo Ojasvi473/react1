@@ -5,6 +5,7 @@ import "react-html5video/dist/styles.css";
 import "./VideoCard.css";
 const VideoCard = () => {
   const [model, setModel] = useState(false);
+
   const videos = [
     {
       id: 1,
@@ -18,12 +19,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 1",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Nature Explorers",
+      channelLogoUrl: "https://picsum.photos/50/50",
     },
     {
-      id: 1,
+      id: 2,
 
       title: "New South Movie Hindi Dubbed",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -34,9 +34,8 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 1",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: " Ancient Rome",
+      channelLogoUrl: "https://picsum.photos/69/69",
     },
     {
       id: 3,
@@ -50,9 +49,8 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Esports Titans",
+      channelLogoUrl: "https://picsum.photos/68/68",
     },
     {
       id: 4,
@@ -66,12 +64,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Complete 11th PHYSICS in 1 Shot",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Plant-Based Cuisine",
+      channelLogoUrl: "https://picsum.photos/67/67",
     },
     {
-      id: 1,
+      id: 5,
 
       title: "New South Movie Hindi Dubbed",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -82,13 +79,12 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 1",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Renaissance Chronicles",
+      channelLogoUrl: "https://picsum.photos/69/69",
     },
 
     {
-      id: 5,
+      id: 6,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "The Gen Z army fighting Myanmar's military dictator",
 
@@ -99,12 +95,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Complete 11th PHYSICS in 1 Shot",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "European Explorers",
+      channelLogoUrl: "https://picsum.photos/66/66",
     },
     {
-      id: 6,
+      id: 7,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "Complete 11th PHYSICS in 1 Shot",
 
@@ -115,12 +110,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Quantum Tech Explorers",
+      channelLogoUrl: "https://picsum.photos/65/65",
     },
     {
-      id: 7,
+      id: 8,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "Complete 11th PHYSICS in 1 Shot",
 
@@ -131,12 +125,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Photography Enthusiasts",
+      channelLogoUrl: "https://picsum.photos/63/63",
     },
     {
-      id: 1,
+      id: 9,
 
       title: "The Gen Z army fighting Myanmar's military dictator",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -147,13 +140,12 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 1",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Mindfulness Moments",
+      channelLogoUrl: "https://picsum.photos/64/64",
     },
 
     {
-      id: 2,
+      id: 10,
 
       title: "Complete 11th PHYSICS in 1 Shot",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -163,12 +155,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Adventure Seekers",
+      channelLogoUrl: "https://picsum.photos/62/62",
     },
     {
-      id: 3,
+      id: 11,
 
       title: "The Gen Z army fighting Myanmar's military dictator",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -179,12 +170,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Science Enthusiasts",
+      channelLogoUrl: "https://picsum.photos/61/61",
     },
     {
-      id: 4,
+      id: 12,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "EBS - Live Doubt Session",
 
@@ -195,12 +185,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "The Gen Z army fighting Myanmar's military dictator",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Wildlife Wonders",
+      channelLogoUrl: "https://picsum.photos/60/60",
     },
     {
-      id: 6,
+      id: 13,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "Example Video 2",
 
@@ -211,12 +200,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Game Masters",
+      channelLogoUrl: "https://picsum.photos/59/59",
     },
     {
-      id: 1,
+      id: 14,
 
       title: "Complete 11th PHYSICS in 1 Shot",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -227,13 +215,12 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 1",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Healthy Eats",
+      channelLogoUrl: "https://picsum.photos/58/58",
     },
 
     {
-      id: 2,
+      id: 15,
 
       title: "New South Movie Hindi Dubbed",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -243,12 +230,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Tech Insights",
+      channelLogoUrl: "https://picsum.photos/57/57",
     },
     {
-      id: 3,
+      id: 16,
 
       title: "EBS - Live Doubt Session",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
@@ -259,12 +245,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "New South Movie Hindi Dubbed",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Wanderlust Adventures",
+      channelLogoUrl: "https://picsum.photos/56/56",
     },
     {
-      id: 4,
+      id: 17,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "EBS - Live Doubt Session",
 
@@ -275,12 +260,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Healthy Living",
+      channelLogoUrl: "https://picsum.photos/55/55",
     },
     {
-      id: 5,
+      id: 18,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "Complete 11th PHYSICS in 1 Shot",
 
@@ -291,12 +275,11 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Artistic Creations",
+      channelLogoUrl: "https://picsum.photos/54/54",
     },
     {
-      id: 6,
+      id: 19,
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       title: "Complete 11th PHYSICS in 1 Shot",
 
@@ -307,24 +290,18 @@ const VideoCard = () => {
 
       views: "25K",
 
-      channelName: "Sample Channel 2",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "Cosmic Voyages",
+      channelLogoUrl: "https://picsum.photos/53/53",
     },
     {
-      id: 2,
-
+      id: 20,
       title: "New South Movie Hindi Dubbed",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
       thumbnailUrl: "https://i.ytimg.com/vi/Vs4bIFD9IVQ/maxresdefault.jpg",
-
       likes: 1200,
-
       views: "25K",
-
-      channelName: "Complete 11th PHYSICS in 1 Shot",
-
-      channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
+      channelName: "History Unearthed",
+      channelLogoUrl: "https://picsum.photos/52/52",
     },
   ];
   return (
