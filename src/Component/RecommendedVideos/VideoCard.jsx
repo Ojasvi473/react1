@@ -22,19 +22,19 @@ const VideoCard = () => {
 
       channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
     },
-
     {
-      id: 2,
+      id: 1,
 
       title: "New South Movie Hindi Dubbed",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
-      thumbnailUrl: "https://i.ytimg.com/vi/Vs4bIFD9IVQ/maxresdefault.jpg",
+      thumbnailUrl:
+        "https://cdn.akamai.steamstatic.com/steam/apps/1105420/capsule_616x353.jpg?t=1667532623",
 
-      likes: 1200,
+      likes: 1500,
 
       views: "25K",
 
-      channelName: "Complete 11th PHYSICS in 1 Shot",
+      channelName: "Sample Channel 1",
 
       channelLogoUrl: "https://i.ytimg.com/vi/TZE9gVF1QbA/maxresdefault.jpg",
     },
