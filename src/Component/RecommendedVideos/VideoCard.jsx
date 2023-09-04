@@ -543,20 +543,12 @@ const VideoCard = () => {
             return (
               <div className="videoCard" key={data.id}>
                 <div className="VideoCard-img">
-                  <Video
+                  <img
                     style={{ width: "366px", height: "205px" }}
-                    autoPlay={model}
-                    controls={[
-                      "PlayPause",
-                      "Seek",
-                      "Time",
-                      "Volume",
-                      "FullSreen",
-                    ]}
-                    poster={data.thumbnailUrl}
+                    src={data.thumbnailUrl}
                   >
-                    <source src={data.src} type="video/mp4" />
-                  </Video>
+                    {/* <source src={data.src} type="video/mp4" /> */}
+                  </img>
                 </div>
                 <div className="videoCard-info">
                   <Avatar
