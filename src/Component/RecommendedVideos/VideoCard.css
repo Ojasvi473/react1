@@ -1,10 +1,4 @@
 .videoCard {
-  /* width: 290px;
-  margin-bottom: 40px; */
-  /* margin: 20px auto;
-  width: 80%;
-  padding: 20px;
-  overflow: hidden; */
   width: 30%;
 }
 .videoCard-image {
@@ -12,9 +6,6 @@
   height: 205px;
   width: 366px;
 }
-
-/* height: 165px;
-  width: 275px; */
 
 .videoCard-info {
   display: flex;
