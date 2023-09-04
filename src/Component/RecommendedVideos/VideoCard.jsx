@@ -9,7 +9,8 @@ const VideoCard = () => {
     {
       id: 1,
       title: "Adventure in the Wilderness",
-      thumbnailUrl: "https://picsum.photos/200/300",
+      thumbnailUrl:
+        "https://thumbs.dreamstime.com/b/beautiful-autumn-scenery-park-beautiful-autumn-scenery-park-outdoor-photography-sunrise-light-101482086.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1500,
@@ -20,7 +21,9 @@ const VideoCard = () => {
     {
       id: 2,
       title: "Cooking Masterclass: Italian Cuisine",
-      thumbnailUrl: "https://picsum.photos/200/301",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
+
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2000,
@@ -31,7 +34,8 @@ const VideoCard = () => {
     {
       id: 3,
       title: "Historical Wonders: Ancient Rome",
-      thumbnailUrl: "https://picsum.photos/200/302",
+      thumbnailUrl:
+        "https://e0.pxfuel.com/wallpapers/309/348/desktop-wallpaper-beautiful-natural-sceneries-high-definition-beautiful-scenery.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1800,
@@ -42,7 +46,9 @@ const VideoCard = () => {
     {
       id: 4,
       title: "Space Exploration: Journey to the Stars",
-      thumbnailUrl: "https://picsum.photos/200/303",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
+
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2200,
@@ -53,7 +59,8 @@ const VideoCard = () => {
     {
       id: 5,
       title: "Artistic Expressions: Abstract Painting",
-      thumbnailUrl: "https://picsum.photos/200/304",
+      thumbnailUrl:
+        "https://wallpapers.com/images/hd/nature-farm-scenery-4nho1u78dzvt1meo.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1600,
@@ -64,7 +71,8 @@ const VideoCard = () => {
     {
       id: 6,
       title: "Fitness and Wellness: Yoga for Beginners",
-      thumbnailUrl: "https://picsum.photos/200/305",
+      thumbnailUrl:
+        "https://static.vecteezy.com/system/resources/thumbnails/001/226/132/small/time-lapse-of-clouds-at-lake-during-dawn.jpeg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1900,
@@ -75,7 +83,8 @@ const VideoCard = () => {
     {
       id: 7,
       title: "Travel Diaries: Exploring Southeast Asia",
-      thumbnailUrl: "https://picsum.photos/200/306",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2100,
@@ -86,7 +95,8 @@ const VideoCard = () => {
     {
       id: 8,
       title: "Tech Talk: The Future of Artificial Intelligence",
-      thumbnailUrl: "https://picsum.photos/200/307",
+      thumbnailUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2BqgiAtuyhhmFKsxCAksynpszFi-t_9wvG5R4I2cgSTnJqkAUmGf3pERZeg4qO6yWvw&usqp=CAU",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1700,
@@ -97,7 +107,8 @@ const VideoCard = () => {
     {
       id: 9,
       title: "Healthy Recipes: Nutritious Smoothies",
-      thumbnailUrl: "https://picsum.photos/200/308",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2400,
@@ -108,7 +119,8 @@ const VideoCard = () => {
     {
       id: 10,
       title: "Gaming Unleashed: Fortnite Championships",
-      thumbnailUrl: "https://picsum.photos/200/309",
+      thumbnailUrl:
+        "https://wallpapers.com/images/hd/nature-farm-scenery-4nho1u78dzvt1meo.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2000,
@@ -119,7 +131,8 @@ const VideoCard = () => {
     {
       id: 11,
       title: "Exploring Wildlife: Safari Adventures",
-      thumbnailUrl: "https://picsum.photos/200/310",
+      thumbnailUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLVyVsg2y72pPmzolkPdLFVNM38yaZ8T1BQ&usqp=CAU",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1800,
@@ -130,7 +143,9 @@ const VideoCard = () => {
     {
       id: 12,
       title: "Science Explained: The Human Brain",
-      thumbnailUrl: "https://picsum.photos/200/311",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
+
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2500,
@@ -141,7 +156,8 @@ const VideoCard = () => {
     {
       id: 13,
       title: "Thrilling Adventures: Mountain Climbing",
-      thumbnailUrl: "https://picsum.photos/200/312",
+      thumbnailUrl:
+        "https://previews.123rf.com/images/thiradech/thiradech1610/thiradech161000041/65798280-alphabet-holiday-clock-and-blue-blurred-background-scenery-beautiful.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2200,
@@ -152,7 +168,8 @@ const VideoCard = () => {
     {
       id: 14,
       title: "Creative Photography: Capturing Moments",
-      thumbnailUrl: "https://picsum.photos/200/313",
+      thumbnailUrl:
+        "https://wallpapers.com/images/hd/nature-farm-scenery-4nho1u78dzvt1meo.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1600,
@@ -163,7 +180,8 @@ const VideoCard = () => {
     {
       id: 15,
       title: "Mindful Living: Meditation for Inner Peace",
-      thumbnailUrl: "https://picsum.photos/200/314",
+      thumbnailUrl:
+        "https://img.freepik.com/premium-vector/sunset-scenery-with-river-forest-reflection-water-colorful-sky_104785-1636.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1900,
@@ -174,7 +192,8 @@ const VideoCard = () => {
     {
       id: 16,
       title: "Tech Insights: The Future of Quantum Computing",
-      thumbnailUrl: "https://picsum.photos/200/315",
+      thumbnailUrl:
+        "https://img.freepik.com/premium-photo/silhouette-trees-against-sunset-sky-illustration-style_625492-18312.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2100,
@@ -185,7 +204,8 @@ const VideoCard = () => {
     {
       id: 17,
       title: "Travel Diaries: European Adventures",
-      thumbnailUrl: "https://picsum.photos/200/316",
+      thumbnailUrl:
+        "https://t4.ftcdn.net/jpg/03/80/74/79/360_F_380747975_sS1hCVB0qPqFCWBMZ3qJ5xTqH6rtaDBI.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1700,
@@ -196,7 +216,8 @@ const VideoCard = () => {
     {
       id: 18,
       title: "Healthy Recipes: Plant-Based Cooking",
-      thumbnailUrl: "https://picsum.photos/200/317",
+      thumbnailUrl:
+        "https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2400,
@@ -207,7 +228,8 @@ const VideoCard = () => {
     {
       id: 19,
       title: "Gaming Unleashed: Esports Championships",
-      thumbnailUrl: "https://picsum.photos/200/318",
+      thumbnailUrl:
+        "https://t3.ftcdn.net/jpg/04/39/66/32/360_F_439663294_VLagwhcKP2TQAcu21Mqnmrdq2HcnImme.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 2000,
@@ -218,7 +240,8 @@ const VideoCard = () => {
     {
       id: 20,
       title: "History Revisited: The Renaissance Era",
-      thumbnailUrl: "https://picsum.photos/200/319",
+      thumbnailUrl:
+        "https://e0.pxfuel.com/wallpapers/309/348/desktop-wallpaper-beautiful-natural-sceneries-high-definition-beautiful-scenery.jpg",
       src: "https://harmony.videvo.net/videvo_files/video/premium/video0007/large_watermarked/black_headz_spin4k08_preview.mp4",
 
       likes: 1800,
